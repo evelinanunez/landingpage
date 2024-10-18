@@ -200,17 +200,17 @@
             </div>
           </form> -->
           <div class="p-4 sm:p-6 lg:p-8">
-            <form name="contacto" method="POST" data-netlify="true" class="bg-white p-8 shadow-lg rounded-lg">
-              <input type="hidden" name="form-name" value="contacto">
+            <form name="contact" method="POST" data-netlify="true" class="bg-white p-8 shadow-lg rounded-lg">
+              <input type="hidden" name="form-name" value="contact">
               <div class="grid grid-cols-1 gap-6">
                 <input class="w-full border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white"
-                       type="text" name="nombre" placeholder="Su nombre" required>
+                       type="text" name="nombre" placeholder="Su nombre" required id="nombre">
                 <input class="w-full border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white"
-                       type="email" name="correo" placeholder="Tu correo electrónico" required>
+                       type="email" name="correo" placeholder="Tu correo electrónico" required  id="correo">
                 <input class="w-full border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white"
-                       type="tel" name="telefono" placeholder="Tu teléfono" required>
+                       type="tel" name="telefono" placeholder="Tu teléfono" required id="telefono">
                 <textarea class="w-full border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white"
-                          name="mensaje" placeholder="Tu mensaje" rows="4" required></textarea>
+                          name="mensaje" placeholder="Tu mensaje" rows="4" required id="mensaje"></textarea>
                 <button class="w-full bg-primary text-white py-3 px-6 rounded-lg hover:bg-primaryhover" type="submit">Enviar mensaje</button>
               </div>
             </form>
